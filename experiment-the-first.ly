@@ -67,6 +67,7 @@ bassNotes =  {
     }
   >>
   \layout {}
+  \midi {}
 }
 
 
