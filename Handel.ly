@@ -95,7 +95,6 @@ global = {
 }
 
 
-
 \score {
   \new PianoStaff
     <<
@@ -106,5 +105,7 @@ global = {
         \global \clef bass \voiceB
       }
     >>
-}    
 
+  \layout {}
+  \midi {}
+}    
