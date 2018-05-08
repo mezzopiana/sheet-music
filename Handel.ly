@@ -52,8 +52,44 @@ global = {
 %14
   f'16 bes, a bes g bes |
   d8        d'    es    |
-
-
+%15
+  f16 bes a bes es, bes' |
+  d4            c8       |
+%16
+  d,16 bes' a bes f' bes, |
+  bes4            d,8     |
+%17
+  g'16 bes, a bes a' bes, |
+  es4             f8      |
+%18
+  bes'16 bes, a' bes, g' bes, |
+  g8          f       es      |
+%19
+  f'16 bes, es a, bes d |
+  d8        c     bes   |
+%20
+  g,16 bes c d es c |
+  es8      d   c    |
+%21
+  a16 c d es f d |
+  f8    es   d   |
+%22
+  bes16 a g f es d |
+  g8      d   es   |
+%23
+  c8 bes' a   |
+  f4      f,8 |
+%24
+  <d, f bes>4 r8    |
+  bes16 c d c bes a |
+%25
+  bes'16 f bes d c es |
+  bes4           r8   |
+%26
+  d8       bes   a    |
+  bes'16 f bes d c es |
+%27
+  
 
 
 }
