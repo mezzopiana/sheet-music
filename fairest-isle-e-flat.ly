@@ -1,4 +1,4 @@
-\version 2.18.2
+\version "2.18.2" 
 
 \paper {
     page-count = #2
@@ -139,5 +139,4 @@ verseTwo = \lyricmode { \set stanza = "2."
     >> 
 
     \layout {}
-    \midi {}
 }
