@@ -1,5 +1,10 @@
 \version 2.18.2
 
+\paper {
+    page-count = #2
+    ragged-last-bottom = ##f
+}
+
 \header {
     title = "Fairest Isle"
     subtitle = "from King Arthur"
@@ -12,8 +17,8 @@ global = {
 }
 
 voiceNotes = {
-    \global 
-    a'4 c2 | f,2 c'4 | d8( c d e) d4 | c2 a4 | a8( bes c4) g | a8( g f4) e | d8( e f4) g | e2. | 
+    \global \dynamicUp 
+    a'4\mf c2 | f,2 c'4 | d8( c d e) d4 | c2 a4 | a8( bes c4) g | a8( g f4) e | d8( e f4) g | e2. | 
     a4\p c2 | f,2 c'4 | d8( c d e) d4 | c2 a4 | a8( bes c4) g | a8( g f4) e |
     d8( e f4) g | e2. | g4 e2 | a2 f4 | bes4 g2 | a2 a4 | a8( bes c d) c4 | fis,2 g4 | g8( a bes a) g4 |
     g2. | c4 a2 | f2 a4 | bes8( a g a) g( f) | g4( c,) c | f8( e d4) bes' | bes8( a g4) c | c8( bes a4) g8( f) | f2. \bar "|."  
@@ -21,7 +26,7 @@ voiceNotes = {
 
 pianoRH = {
     \global 
-    <a c f>4 <<{f'( e)} \\ {<g, bes>2} >> | 
+    <a c f>4\mf <<{f'( e)} \\ {<g, bes>2} >> | 
     <<{e'4( d)}\\{<f, a>2}>> <f c'>4 | 
     <f a d>( <f bes d>) <<{d'8 e}\\{<f, bes>4}>> | 
     <<{<c' f>4. <c g'>8 <c a'>4 }\\{a8 g a bes a4}>> | 
@@ -30,10 +35,25 @@ pianoRH = {
     <<{d8 e f4}\\{c2}>> <b g'>4 |
     <c e>2. |
     r4 <<{a'4 c}\\{c,8 d e4}>> |
+    <<{f2 f8 e}\\{e4 d c}>> |
+    <bes d>2 <<{d8 e}\\{bes4}>> |
+    <<{f'8[ e f g]}\\{a,4. c8}>> <f a>4 |
+    <c a'>4 <c g'> <c e> |
+    <<{f2}\\{c4 d}>> s4 |
+    <<{d8 e f4}\\{c2}>> <b g'>4 |
+    <c e>8 b c d e f |
+    r4 <e g>( <c e>) |
+    <<{r4 a'( f)}\\{c2( d4)}>> |
+    <<{r4 bes'( g)}\\{bes,2 c4}>> |
+    <<{r4 a'( f)}\\{a,2( c4)}>> |
+    r4 <c a'c>( <c f a>) |
+    r4 <d f a>( <f a d>) | 
+    <<{<g d'>( g4.) f8}\\{d2( <g, d'>4) }>> |
+    <<{e'8[ f g f]}\\{c2}>> <c e>4
 }
 
 pianoLH = {
-    \global <f, f'>4 <c c'>2 | 
+    \global \dynamicUp <f, f'>4 <c c'>2 | 
     <d d'>2 <a a'>4 | 
     <bes bes'>2 <bes bes'>4 | 
     <f f'>2. | 
@@ -45,8 +65,19 @@ pianoLH = {
     d2 a4 |
     <bes f'>2 q4  |
     <f f'>2 q4 |
-    f'4 <e g> <<{c'8 bes}\\{c,}>> |
-    <<{a'4}\\{f8 e}>> <d b'>4 s |
+    f'4 <e g> <<{c'8 bes}\\{c,4}>> |
+    <<{a'4}\\{f8[ e]}>> <d b'>4 s |
+    <<{a'2}\\{f4 d}>> <g, g'>4 |
+    <c g'>2. |
+    <c, c'>2( c'4) |
+    <a f'>2( <d f>4) |
+    <g, d' g>2( <c e>4) | 
+    <f, c' f>2( <f' a>4) |
+    es2. | 
+    d4( c) bes |
+    c2. | 
+    <g g'>8(\< <a a'> <bes bes'>\! <a a'>\> <g g'> <f f'>)\! |
+
       
 }
 
