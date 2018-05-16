@@ -9,7 +9,7 @@ global = {
   \key g \minor
 
 }
-\parallelMusic #'(voiceA voiceB) {
+\parallelMusic #'(RH LH) {
 %1
   g'16 d g bes a c | 
   g4           r8  |
@@ -99,10 +99,10 @@ global = {
   \new PianoStaff
     <<
       \new Staff = "Treble" \relative c' {
-        \global \voiceA
+        \global \RH
       }
       \new Staff = "Bass" \relative c {
-        \global \clef bass \voiceB
+        \global \clef bass \LH
       }
     >>
 
