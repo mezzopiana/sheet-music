@@ -34,10 +34,15 @@ bassNotes = {
   R1*2 | a1~ | a1 |
 }
 
-pianoRH = {f}
-
-pianoLH = {f}
-
+%PIANO
+\parallelMusic #'(pianoRH pianoLH) {
+%1
+  <a c e>1 |
+  a1 |
+%2
+  <f a c> |
+  f1 |
+}
 
 %LYRICS
 
@@ -67,7 +72,7 @@ pianoLH = {f}
 
       }
       \new Staff = "LH" \relative c {\global
-        \clef bass  \pianoLH
+        \clef bass \pianoLH
       
       }
 
