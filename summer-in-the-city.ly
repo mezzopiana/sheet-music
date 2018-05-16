@@ -14,15 +14,25 @@ global = {
 
 %MUSIC
 
-sopranoNotes = {f}
+sopranoNotes = {
+  R1*2 | a1~ | a1 |
+}
 
-mezzoNotes = {f}
+mezzoNotes = {
+  R1*2 | e1~ | e1 |
+}
 
-altoNotes = {f}
+altoNotes = {
+  R1*2 | c1~ | c1 |
+}
 
-tenorNotes = {f}
+tenorNotes = {
+  R1*2 | a1~ | a1 |
+}
 
-bassNotes = {f}
+bassNotes = {
+  R1*2 | a1~ | a1 |
+}
 
 pianoRH = {f}
 
