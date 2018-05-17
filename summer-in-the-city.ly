@@ -59,7 +59,7 @@ bassNotes = {
   \score {
     <<
       \new StaffGroup <<
-        \new Staff = "soprano" \relative c' {\global 
+        \new Staff = "soprano" \with instrumentName "Soprano" \relative c'  {\global 
           \sopranoNotes 
         }
         \new Staff = "mezzo" \relative c' {\global 
